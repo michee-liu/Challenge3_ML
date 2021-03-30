@@ -1,3 +1,17 @@
+//Map API
+// Set api token
+mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
+
+// Initialate map
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-69.9491, 12.5],
+  zoom: 10
+});
+
+
+/*
 //Weather API
 function getAPIdata() {
 	var url = 'https://api.openweathermap.org/data/2.5/forecast';
@@ -77,6 +91,8 @@ function formTime(date) {
 }
 
 getAPIdata();
+
+*/
 
 
 

@@ -7,6 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link type="text/css" href="main.css" rel="stylesheet" />
 		<link type="text/css" href="grid.css" rel="stylesheet" />
+
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+
 		<script src="Javascript.js" defer></script>
 	</head>
 
@@ -21,18 +25,21 @@
 
 
 	     <main class="grid-item main">
-		  	<div class="left">
+<!--		  	<div class="left">
 				<nav id="menu" class="inactive">
 	    			<ul>
 	    				<li><a href="index.html">WEATHER</a></li>
 	    				<li><a href=".html">MAP</a></li>
 	    			</ul>
 	  	  		</nav>
-	  	 	</div>
+	  	 	</div>-->
+
+
+	  	 	 <div id="map"></div>
 		</main>
 
 		<section class="grid-item sec">
-			<p>Weather API</p>
+			
 			<article id="weather"></article>
 		</section>
 
