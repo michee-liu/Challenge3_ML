@@ -49,3 +49,34 @@ function onAPISucces(response) {
 		weatherBox.innerHTML += forecastMessage;
 	}
 }
+
+//Error
+function updateUIError() {
+	var weatherBox = document.getElementById('weather');
+	weatherBox.className = 'hidden'; 
+}
+
+//Datum
+function formDate(date) {
+	var day = date.getDate();
+	var month = date.getMonth() + 1;
+	return day +'/'+ month;
+}
+
+//Tijd
+function formTime(date) {
+	var hours = date.getHours();
+	if(hours<10){
+		hours = '0'+hours;
+	}
+	var minutes = date.getMinutes();
+	if(minutes < 10){
+		minutes = '0'+ minutes;
+	}
+	return hours +':'+ minutes;
+}
+
+getAPIdata();
+
+
+
