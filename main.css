@@ -78,4 +78,33 @@ section{
  	text-align: center;
 }
 
+/*Weer*/
+#weather {
+	width: 350px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	overflow: auto;
+}
 
+#weather > .forecastMoment {
+	float: left;
+	width: 100px;
+	margin: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	background-color: white;
+	border-radius: 6px;
+	color: #444;
+	font-size: 0.9em;
+}
+
+.temp {
+	font-weight: bold;
+	color: #0af;
+	font-size: 1.5em;
+}
+
+.hidden {
+	display: none;
+}
