@@ -1,5 +1,4 @@
 //Map API
-// Set api token
 mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
 
 // Initialate map
