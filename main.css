@@ -88,11 +88,23 @@ main{
  	width: 89vw;
 }
 
-/*Weer*//*
+section{
+	background-color: #90CAF9;
+ 	margin-top: 5px;
+ 	padding-top: 15px;
+ 	padding-left: 15px;
+ 	padding-bottom: 15px;
+ 	color: white;
+ 	font-size: 15px;
+ 	border-radius: 10px;
+ 	text-align: center;
+}
+
+/*Weer*/
 #weather {
 	width: 350px;
 	padding-top: 15px;
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-bottom: 15px;
 	overflow: auto;
 }
@@ -119,7 +131,16 @@ main{
 .hidden {
 	display: none;
 }
-*/
+
+/*Ipad Schermgroote (768 x 1024)*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Desktop Schermgroote (12inch scherm)*/
+@media screen and (min-width: 1000px) {
+
+}
 
 
 

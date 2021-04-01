@@ -10,7 +10,6 @@ var map = new mapboxgl.Map({
 });
 
 
-/*
 //Weather API
 function getAPIdata() {
 	var url = 'https://api.openweathermap.org/data/2.5/forecast';
@@ -91,7 +90,7 @@ function formTime(date) {
 
 getAPIdata();
 
-*/
+
 
 
 
