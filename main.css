@@ -133,8 +133,24 @@ section{
 }
 
 /*Ipad Schermgroote (768 x 1024)*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
+#map {
+	border-radius: 10px;
+ 	height: 30vh;
+ 	width: 93vw;
+}
+main{
+ 	padding-left: 20px;
+}
 
+#weather {
+	width: 700px;
+	padding-left: 40px;
+}
+#weather > .forecastMoment {
+	width: 125px;
+
+}
 }
 
 /*Desktop Schermgroote (12inch scherm)*/
