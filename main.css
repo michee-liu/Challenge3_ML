@@ -72,16 +72,16 @@ section{
 
 /*Weer*/
 #weather {
-	width: 350px;
-	padding-top: 15px;
-	padding-left: 30px;
+	width: 400px;
+	padding-top: 5px;
+	padding-left: 18px;
 	padding-bottom: 15px;
 	overflow: auto;
 }
 
 #weather > .forecastMoment {
 	float: left;
-	width: 100px;
+	width: 80px;
 	margin: 2px;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -124,34 +124,41 @@ main{
 
 /*Desktop Schermgroote (12inch scherm)*/
 @media screen and (min-width: 1000px) {
+header{
+	margin-left: 10px;
+}
+footer{
+	margin-left: 10px;
+}
 main{
- 	padding-left: 10px;
- 	padding-right: 5px;
+ 	padding-left: 7px;
+ 	margin-left: 10px;
  	margin-right: 8px;
 	float: left;
 }
 /*Map opmaak*/
 #map {
 	border-radius: 10px;
- 	height: 55vh;
- 	width: 60vw;
+ 	height: 70vh;
+ 	width: 37vw;
 }
+
 
 section{
  	margin-top: 5px;
  	padding-top: 15px;
- 	padding-left: 15px;
+ 	padding-right: 20px;
 }
 #weather {
-	width: 330px;
+	width: 590px;
 	padding-top: 5px;
-	padding-right: 23px;
+	padding-right: 15px;
 	padding-bottom: 15px;
 	overflow: auto;
 }
 #weather > .forecastMoment {
 	float: left;
-	width: 100px;
+	width: 80px;
 }
 }
 
