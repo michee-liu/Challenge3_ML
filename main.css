@@ -29,24 +29,6 @@ input{
 	border-radius: 10px;
 }
 
-/*Navigation Bar CSS
-.left{
-	padding: 5px;
-	background-color: #90CAF9;
-	border-radius: 10px;
-	margin-top: 5px;
-	text-align: center;
-}
-
-ul{
-	padding-left: 0px;
-}
-
-li{
-	display: inline;
-	margin: 3px;
-	padding: 10px;
-}*/
 
 /*andere kleur wanneer je muis erop komt te staan*/
 nav ul li:hover {
