@@ -29,18 +29,6 @@ input{
 	border-radius: 10px;
 }
 
-
-/*andere kleur wanneer je muis erop komt te staan*/
-nav ul li:hover {
-  background-color: #42A5F5;
-  border-radius: 3px;
-}
-
-nav > ul > li > a {
-  color: #fff;
-  text-decoration: none;
-}
-
 footer{
 	text-align: center;
 	margin-top: 5px;
@@ -142,15 +130,12 @@ main{
  	margin-right: 8px;
 	float: left;
 }
-
 /*Map opmaak*/
 #map {
 	border-radius: 10px;
  	height: 55vh;
  	width: 60vw;
 }
-
-
 
 section{
  	margin-top: 5px;
