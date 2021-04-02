@@ -25,3 +25,17 @@ body{
 .foot {
   grid-area: foot;
 }
+
+/*Desktop Schermgroote (12inch scherm)*/
+@media screen and (min-width: 1000px) {
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  sec"
+        "foot  foot "; 
+}
+}

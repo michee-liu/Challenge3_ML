@@ -1,13 +1,31 @@
 //Map API
+/*mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
+
+// Initialate map
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [4.9041, 52.3676],
+  zoom: 10
+});*/
 mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
 
 // Initialate map
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-69.9491, 12.5],
-  zoom: 10
+  center: [4.322840, 52.067101],
+  zoom: 11.15
 });
+
+//search option
+map.addControl(
+  new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl
+  }),
+  'top-right'
+);
 
 
 //Weather API

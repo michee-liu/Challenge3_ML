@@ -29,7 +29,7 @@ input{
 	border-radius: 10px;
 }
 
-/*Navigation Bar CSS*/
+/*Navigation Bar CSS
 .left{
 	padding: 5px;
 	background-color: #90CAF9;
@@ -46,7 +46,7 @@ li{
 	display: inline;
 	margin: 3px;
 	padding: 10px;
-}
+}*/
 
 /*andere kleur wanneer je muis erop komt te staan*/
 nav ul li:hover {
@@ -149,13 +149,43 @@ main{
 }
 #weather > .forecastMoment {
 	width: 125px;
-
 }
 }
 
 /*Desktop Schermgroote (12inch scherm)*/
 @media screen and (min-width: 1000px) {
+main{
+ 	padding-left: 10px;
+ 	padding-right: 5px;
+ 	margin-right: 8px;
+	float: left;
+}
 
+/*Map opmaak*/
+#map {
+	border-radius: 10px;
+ 	height: 55vh;
+ 	width: 60vw;
+}
+
+
+
+section{
+ 	margin-top: 5px;
+ 	padding-top: 15px;
+ 	padding-left: 15px;
+}
+#weather {
+	width: 330px;
+	padding-top: 5px;
+	padding-right: 23px;
+	padding-bottom: 15px;
+	overflow: auto;
+}
+#weather > .forecastMoment {
+	float: left;
+	width: 100px;
+}
 }
 
 
