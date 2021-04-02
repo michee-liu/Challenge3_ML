@@ -21,7 +21,8 @@ header{
 	padding-left: 3px;
 }
 h1{
-	float: left;	
+	float: left;
+	padding-left: 10px;	
 }
 
 input{
@@ -38,7 +39,7 @@ footer{
 	padding: 5px;
 }
 
-
+/*opmaak van main*/
 main{
 	background-color: #90CAF9;
  	margin-top: 5px;
@@ -58,6 +59,7 @@ main{
  	width: 89vw;
 }
 
+/*opmaak van section*/
 section{
 	background-color: #90CAF9;
  	margin-top: 5px;
@@ -92,6 +94,7 @@ section{
 	font-size: 0.9em;
 }
 
+/*temperatuur kleur en font*/
 .temp {
 	font-weight: bold;
 	color: #0af;
@@ -101,6 +104,7 @@ section{
 .hidden {
 	display: none;
 }
+
 
 /*Ipad Schermgroote (768 x 1024)*/
 @media screen and (min-width: 767px) {
@@ -122,6 +126,7 @@ main{
 }
 }
 
+
 /*Desktop Schermgroote (12inch scherm)*/
 @media screen and (min-width: 1000px) {
 main{
@@ -129,14 +134,11 @@ main{
  	margin-right: 8px;
 	float: left;
 }
-/*Map opmaak*/
 #map {
 	border-radius: 10px;
  	height: 70vh;
  	width: 37vw;
 }
-
-
 section{
  	margin-top: 5px;
  	padding-top: 15px;

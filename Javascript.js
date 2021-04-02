@@ -1,16 +1,8 @@
-//Map API
-/*mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
-
-// Initialate map
-var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
-  center: [4.9041, 52.3676],
-  zoom: 10
-});*/
+//Map API = landingsplekje
+//hieronder de API
 mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGxpdTEzIiwiYSI6ImNrbWtqaGIwYTExaHIybnF2dnhqMngyNjMifQ.bmL4jFltr-b2paWAPo8wPA';
 
-// Initialate map
+//map met de locatie, grootte etc.
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
@@ -18,7 +10,7 @@ var map = new mapboxgl.Map({
   zoom: 11.15
 });
 
-//search option
+//search option/ zoeken naar specifieke locatie is mogelijk
 map.addControl(
   new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
@@ -28,12 +20,14 @@ map.addControl(
 );
 
 
-//Weather API
+//Weather API = weer informatie
+//api, link en locatie
 function getAPIdata() {
 	var url = 'https://api.openweathermap.org/data/2.5/forecast';
 	var apiKey ='f31545b9705649d0e5327a3267bd2690';
 	var city = 'netherlands';
 
+	//variabele uitvoering
 	var request = url + '?' + 'appid=' + apiKey + '&' + 'q=' + city;
 
 	//weer aanvragen

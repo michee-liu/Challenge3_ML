@@ -1,3 +1,4 @@
+/*grid layout van mobiel & tablet*/
 body{
   display: grid;
   grid-template-columns: 1fr;
@@ -26,6 +27,7 @@ body{
   grid-area: foot;
 }
 
+/*verandering van layout bij desktop schermgrootte*/
 /*Desktop Schermgroote (12inch scherm)*/
 @media screen and (min-width: 1000px) {
 body{
